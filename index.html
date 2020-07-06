@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso ideal</title>
+    <link rel="stylesheet" href="medidor.css">
+</head>
+<body>
+        
+        <P>Qual seu Nome? <input type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome.."></P>
+        <P>Sexo:
+            <input type="radio" name="sexo" id="masc" checked>
+            <label for="mas">Masculino </label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+        </P>
+        <P>Qual a sua altura?<input type="number" name="txtAltura" id="txtAltura" placeholder="Ex: 1,70"></P>
+        <P>Qual seu peso atual?<input type="number" name="txtPeso" id="txtPeso" placeholder="Ex: 80 "></P>
+        <P><input type="button" value="Calcular" onclick="medir()" id="botao"></P>
+        <div id="foto">
+            <img src="./fotos/intro.jpg" alt="fdinamica" id="img">
+        </div>
+        <h1>Qual meu peso ideal?</h1>
+    <div id="dica">     
+    </div>
+    <div id="result">
+    </div>
+    
+    <footer id="footer">Obs: Todas as medidas informadas são baseadas em valores gerais. Consulte um profissional de nutrição.</footer>
+</body>
+<script src="medidor.js"></script>
+</html>

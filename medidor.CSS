@@ -1,0 +1,48 @@
+body {
+    background-image: url("./fotos/Fotofundo.jpg");
+    background-position: center;
+    margin-top: 100px ;
+    
+}
+input{
+    
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#botao{
+    font-size: 15px;
+}
+h1 {
+    font: normal 40pt Arial;
+    text-align: center;
+    background-color: burlywood;
+    background-position: center;
+  
+    border-radius: 10px;
+   
+}
+
+p{
+    margin-left: 20px;
+    font: normal 18pt Arial;
+    text-align: left;
+}
+#foto {
+    margin-left: 600px;
+    margin-top: -250px;
+}
+
+#dica {
+    font: normal 20pt Arial;
+    text-align: center;
+}
+
+#result {
+    font: normal 20pt Arial;
+    text-align: center;
+}
+#footer{
+    font-style: italic;
+}
